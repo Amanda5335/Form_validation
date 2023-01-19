@@ -29,7 +29,7 @@ form.addEventListener("submit", (event) => {
         return;
     }
 
-    if (messageTextarea.valeu === "") {
+    if (messageTextarea.value === "") {
         alert("Por favor, escreva uma mensagem");
         return;
     }
